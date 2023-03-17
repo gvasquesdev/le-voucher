@@ -53,5 +53,6 @@ function applyDiscount(value: number, discount: number) {
 
 export default {
   createVoucher,
-  applyVoucher
+  applyVoucher,
+  isAmountValidForDiscount
 }
